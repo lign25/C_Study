@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+    
+    printf("이건우\n");
+    printf("경기도 성남시 중원구 시민로 66\n");
+    printf("010-4935-6629");
+    return 0;
+}
+    
