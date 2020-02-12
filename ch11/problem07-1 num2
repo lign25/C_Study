@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    int i;
+    int j=1;
+    int res;
+    
+    scanf("%d",&i);
+    while(j<=i){
+        res=3*j;
+        printf("%d\n",res);
+        j++;
+    }
+    return 0;
+}
+    // 양의 정수를 입력 받고, 그 수만큼 3의 배수를 출력하는 프로그램 ex) 5 - 3 6 9 12 15
