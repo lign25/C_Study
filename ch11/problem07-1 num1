@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int num1;
+    int i=0;
+    
+    scanf("%d",&num1);
+    while(i<num1){
+        printf("Hello world!\n");
+        i++;
+    }
+    return 0;
+}
+   // 양의 정수를 입력 받아 그 수 만큼 "Hello world!"를 출력하는 프로그램
