@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main(){
+    int num1,num2,num3;
+    scanf("%d %d %d",&num1,&num2,&num3);
+    printf("%d\n",(num1-num2)*(num2+num3)*(num3%num1));
+    return 0;
+}
+    // (num1-num2)x(num2+num3)x(num3%num1) 을 출력하는 프로그램
