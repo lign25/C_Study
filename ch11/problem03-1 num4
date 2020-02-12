@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main(){
+    int num1,num2;
+    scanf("%d %d",&num1,&num2);
+    printf("몫:%d 나머지:%d\n",num1/num2,num1%num2);
+    return 0;
+}
+    // 입력 받은 두 정수의 몫과 나머지를 출력하는 프로그램
