@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int num=1;
+    int res=0;
+    
+    while(num!=0){
+    scanf("%d",&num);
+    res+=num;
+    }
+    printf("입력된 정수의 총합: %d\n",res);
+    return 0;
+}
+    // 0이 입력 될 때까지 입력받은 정수를 더하고 0이 입력되면 입력된 모든 정수의 합을 출력하고 종료하는 프로그램
